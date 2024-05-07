@@ -1,0 +1,17 @@
+.parallax-image{
+    background-image: url(../img/economia.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+@media (max-width:520px) and (min-width:310px) {
+    .parallax-image {
+        height: 30vh;
+    }
+    .tit-paralax {
+        display: none;
+    }
+}

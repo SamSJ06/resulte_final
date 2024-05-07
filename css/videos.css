@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    height: 100%;
+}
+
+/*Header*/
+
+.tit-paralax{
+    padding: calc(10% + 80px);
+    font-size: 2.7em;
+    font-weight: 500px;
+    color: #fff;
+
+}
+
+
+/* .parallax-image{
+    background-image: url(../img/contabilidade.jpg
+    );
+    filter: brightness(50%); 
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+} */
+
+/*fim Header*/
+
+
+/*Nav*/
+
+.nav-videos{
+    background-color: #17794B;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.nav-videos>p{
+    text-align: justify;
+    font-size: 0.9em;
+    color: white;
+    width: 70%;
+}
+
+/*Fim Nav*/
+
+
+/*Barra de Quantidade de videos*/
+
+.h2-info {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.div-main-duração{
+    margin-top: 30px;
+    text-align: center;
+    height: 200px;
+    background-color: #000;
+}
+
+.img-barra-de-nav{
+    width: 40px;
+    height: auto;
+}
+
+.barra-de-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+.barra-de-nav span {
+    color: #34D91A;
+}
+.letras-bar-nav {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.barra-de-nav1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.barra-de-nav2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.barra-de-nav3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+/*Fim Barra de Quantidade de videos*/
+
+
+/*Section videos*/
+
+.section-videos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.div-all-videos{
+    padding: 30px 0px 0px 0px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos-contabilidade{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+#close-icon{
+    font-size: 35px;
+    color: #17794B;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.videos{
+    width: 100%;
+    height: 70vh;
+}
+
+.h2-contabilidade-videos{
+    color: #000;
+}
+
+.p-video-contabilidade{
+    color: #000;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+
+/*Fim section videos*/
+
+.footer-cursos{
+    margin-top: 0px;
+}
+
+/**/
+/**/
+
+
+
+@media (max-width: 1670px) and (min-width: 1100px){
+} 
+
+@media (max-width: 1100px) and (min-width: 1024px){
+    .videos {
+         height: 50vh; 
+    }
+} 
+
+@media (max-width: 1024px) and (min-width: 800px){
+
+    .div-section-1>p{
+        padding: 280px 0px 0px 80px;
+        font-size: 2.7em;
+    }
+    
+    .videos {
+        height: 37vh; 
+   }
+
+    .videos-contabilidade{
+       width: 90%;
+    }
+
+    .h2-contabilidade-videos{
+      font-size: 2.0em;
+    }
+    
+    .p-video-contabilidade{
+       font-size: 1.6em;
+    }
+
+} 
+
+@media (max-width: 800px) and (min-width: 720px){
+
+    .div-section-1>p{
+        padding: 270px 0px 0px 80px;
+        font-size: 2.7em;
+    }
+
+    .videos-contabilidade{
+       width: 93%;
+    }
+
+    .videos {
+        height: 34vh; 
+   }
+
+    .h2-contabilidade-videos{
+      font-size: 1.7em;
+    }
+    
+    .p-video-contabilidade{
+       font-size: 1.4em;
+    }
+
+} 
+
+@media (max-width: 719px) and (min-width: 479px){
+
+    .div-section-1>p{
+        padding: 268px 0px 0px 80px;
+        font-size: 2.7em;
+    }
+
+    .videos-contabilidade{
+        width: 92%;
+        
+    }
+
+    .videos {
+        height: 27vh; 
+   }
+   
+
+}
+
+@media screen and (max-width: 480px){
+
+    .div-section-1>p{
+        padding: 265px 0px 0px 30px;
+        font-size: 2.7em;
+    }
+
+    .videos-contabilidade{
+        width: 92%;
+    }
+
+    .videos {
+        height: 20vh; 
+   }
+
+    .h2-contabilidade-videos{
+        font-size: 1.5em;
+      }
+      
+    .p-video-contabilidade{
+       font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .videos {
+        height: 7vh; 
+   }
+}
+
+
