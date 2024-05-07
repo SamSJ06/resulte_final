@@ -549,7 +549,7 @@ footer>div>nav{
 
 @media (max-width:520px) and (min-width:310px){
     article{
-        height: 1100px;
+        height: 130vh;
         flex-wrap: wrap;
     }
     article>img{
